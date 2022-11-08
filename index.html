@@ -16,13 +16,113 @@
       .container {
         padding: 80px 120px;
       }
+      .person {
+        border: 10px solid transparent;
+        margin-bottom: 25px;
+        width: 80%;
+        height: 80%;
+        opacity: 0.7;
+      }
+      .person:hover {
+        border-color: #f1f1f1;
+      }
     </style>
   </head>
   <body>
     <div class="container text-center">
+      <!-- Text Bandvorstellung -->
       <h3>THE BEAUTIFUL KIDS</h3>
       <p><em>Die neue Jetpop Band</em></p>
-      <p>Hier bekommt ihr einen ersten Eindruck was Jetpop ist.</p>
+      <p>
+        Die neue Bielefelder Jetpopband The Beautiful Kids formierte sich Anfang
+        2022 und startet seitdem in eine neue Ära. Ihr Ziel: Rein ins Studio und
+        mit ihrer Leidenschaft zur Livemusik raus auf die Bühne! Daniel am
+        Mikro, zumeist auch mit Gitarre ausgestattet, singt in
+        Highschoolpunkmanier die eingängigen, englischsprachigen Texte.
+        Sebastian an der Leadgitarre reißt mit seinen experimentellen und
+        melodischen Soli oft nicht nur die Ohren in seinen Bann. Marco am
+        Schlagzeug und Jonas am Bass bilden das grundsolide Rhythmusfundament
+        der vier jungen Musiker. Alles zusammen ergibt frische, punkig
+        angehauchte Rockmusik mit einem guten Schuss Pop – das ist Jetpop. Die
+        Bühnenerfahrungen der einzelnen Bandmitglieder lassen sich nur in
+        mittleren dreistelligen Zahlen messen, was man ihnen doch inzwischen
+        auch ansieht!?
+      </p>
+      <!-- Fotos Bandvorstellung -->
+      <div class="row">
+        <div class="col-sm-3">
+          <p class="text-center"><strong>Daniel Liening-Ewert</strong></p>
+          <br />
+          <a href="#demo1" data-bs-toggle="collapse">
+            <img
+              src="daniel.jpg"
+              class="rounded-circle person"
+              alt="Daniel Liening-Ewert"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo1" class="collapse">
+            <p>Gesang & Gitarre</p>
+            <p>Cooler Spruch</p>
+            <p>Gründungsmitglied</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <p class="text-center"><strong>Sebastian Beck</strong></p>
+          <br />
+          <a href="#demo2" data-bs-toggle="collapse">
+            <img
+              src="sebastian.jpg"
+              class="rounded-circle person"
+              alt="Sebastian Beck"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo2" class="collapse">
+            <p>Leadgitarre</p>
+            <p>Liest gerne Maddrax</p>
+            <p>Gründungsmitglied</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <p class="text-center"><strong>Jonas Kliegel</strong></p>
+          <br />
+          <a href="#demo3" data-bs-toggle="collapse">
+            <img
+              src="jonas.jpg"
+              class="rounded-circle person"
+              alt="Jonas Kliegel"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo3" class="collapse">
+            <p>Cooler Spruch</p>
+            <p>Bass & Backing-Gesang</p>
+            <p>Gründungsmitglied</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <p class="text-center"><strong>Marco Knobel</strong></p>
+          <br />
+          <a href="#demo4" data-bs-toggle="collapse">
+            <img
+              src="marco.jpg"
+              class="rounded-circle person"
+              alt="Marco Knobel"
+              width="255"
+              height="255"
+            />
+          </a>
+          <div id="demo4" class="collapse">
+            <p>Schlagzeug</p>
+            <p>Haut gern auf Sachen rum</p>
+            <p>Gründungsmitglied</p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Einbinden von Bootstrap JS von CDN -->
     <script
