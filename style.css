@@ -1,11 +1,6 @@
-@media (max-width: 800px) {
-  .table-responsive {
-    overflow-x: hidden;
-    width: 100%;
-  }
-  iframe {
-    width: 100%;
-  }
+.spotify-player {
+  width: 100%;
+  max-width: 400px;
 }
 
 .content-wrapper {
