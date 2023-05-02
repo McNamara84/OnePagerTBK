@@ -1,3 +1,24 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-responsive {
+  width: 100%;
+}
+
+.table-responsive table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spotify-iframe-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .events-table, .spotify-player {
     margin-left: auto;
