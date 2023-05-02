@@ -1,3 +1,11 @@
+@media (max-width: 600px) {
+  .events-table, .spotify-player {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  }
+}
+
 body {
   padding-top: 50px;
 }
