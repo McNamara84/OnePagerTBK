@@ -1,3 +1,7 @@
+body {
+  padding-top: 50px;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
@@ -20,6 +24,7 @@
   .social-icon {
     font-size: 4.0rem;
   }
+
   .social-media {
     gap: 1.5%;
   }
@@ -29,6 +34,7 @@
   .social-icon {
     font-size: 3.0rem;
   }
+
   .social-media {
     gap: 1%;
   }
@@ -36,7 +42,8 @@
 
 .carousel-image-container {
   position: relative;
-  padding-bottom: 56.25%; /* Verhältnis 16:9 */
+  padding-bottom: 56.25%;
+  /* Verhältnis 16:9 */
   height: 0;
   overflow: hidden;
 }
