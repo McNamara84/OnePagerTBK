@@ -1,3 +1,39 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.social-icon {
+  font-size: 6.0rem;
+  color: #000;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #007bff;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .social-icon {
+    font-size: 4.0rem;
+  }
+  .social-media {
+    gap: 1.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-icon {
+    font-size: 3.0rem;
+  }
+  .social-media {
+    gap: 1%;
+  }
+}
+
 .carousel-image-container {
   position: relative;
   padding-bottom: 56.25%; /* Verhältnis 16:9 */
