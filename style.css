@@ -1,3 +1,63 @@
+.navbar {
+  background-color: #767676 !important;
+}
+
+.navbar .nav-link {
+  color: #ffa900 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #d9cab9 !important; 
+}
+
+.navbar .navbar-brand {
+  color: #ffa900 !important; 
+}
+
+.navbar .navbar-brand:hover {
+  color: #d9cab9 !important; 
+}
+
+
+footer.bg-light {
+  background-color: #767676 !important;
+}
+
+footer.bg-light .text-muted {
+  color: #fff !important; /* Ändert die Textfarbe zu Weiß */
+}
+
+#contact {
+  color: #ffa900;
+}
+
+.card {
+  background-color: #767676;
+}
+
+.list-group-item {
+  background-color: #767676;
+  color: #d9cab9;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #767676;
+  color: #ffa900;
+  border-color: #333535;
+}
+
+.accordion-button {
+  background-color: #767676;
+  color: #ffa900;
+  border-color: #333535;
+}
+
+.accordion-item {
+  background-color: #767676;
+  color: #d9cab9;
+  border-color: #333535;
+}
+
 .spotify-player {
   width: 100%;
   max-width: 400px;
@@ -34,6 +94,19 @@
 
 body {
   padding-top: 50px;
+  background-color: #333535;
+  color: #d9cab9;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3, h2, h4, h5 {
+  color: #ffa900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6 {
+  color: #d9cab9;
 }
 
 .social-media {
@@ -45,12 +118,12 @@ body {
 
 .social-icon {
   font-size: 6.0rem;
-  color: #000;
+  color: #d9cab9;
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .social-icon:hover {
-  color: #007bff;
+  color: #ffa900;
   transform: scale(1.2);
 }
 
